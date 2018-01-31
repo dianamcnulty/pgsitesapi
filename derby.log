@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Jan 31 14:32:55 EST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-0161-4db5-2ee6-000006d63dd0 
+on database directory memory:/Users/n0258917/eclipse-workspace/pgweather/testdb with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/Users/n0258917/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=/Users/n0258917/eclipse-workspace/pgweather
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13.3
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
