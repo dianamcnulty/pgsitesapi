@@ -15,12 +15,13 @@ import com.dianamcnulty.pgweather.models.FlyingSite;
 import com.dianamcnulty.pgweather.models.FlyingSiteRepository;
 
 @RestController
+@CrossOrigin
 public class FlyingSiteController {
 	@Autowired 	
 	private FlyingSiteRepository flyingSiteRepository;
 //	private FlyingSiteService flyingSiteService;
 	
-	@CrossOrigin(origins = "http://localhost:4200")
+	
 	@RequestMapping("/sites")
 	public Map<String, Object> readAll() {
 		  List<FlyingSite> flyingSites = flyingSiteRepository.findAll();
