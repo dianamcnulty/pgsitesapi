@@ -22,7 +22,7 @@ public class FlyingSiteController {
 //	private FlyingSiteService flyingSiteService;
 	
 	
-	@RequestMapping("/sites")
+	@RequestMapping("/")
 	public Map<String, Object> readAll() {
 		  List<FlyingSite> flyingSites = flyingSiteRepository.findAll();
 		  Map<String, Object> dataMap = new HashMap<String, Object>();
